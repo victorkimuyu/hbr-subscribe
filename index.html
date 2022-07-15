@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBR Subscribe</title>
+    <link rel="stylesheet" href="./public/css/main.css">
+    <link rel="stylesheet" href="public/fonts/gt-american/gt-america.css">
+    </style>
+</head>
+
+<body class="flex align-middle font-sans">
+    <div class="container w-fit h-fit bg-blue-700 p-[16px]" id="subscribe-cta">
+        <div class="flex justify-between mb-8">
+            <img src="./public/images/hbr-logo-white.svg" alt="">
+            <span class="cursor-pointer" onclick="hideCTA()">
+                <img src="./public/images/cross.svg" alt="Close subscribe box">
+            </span>
+        </div>
+        <h1 class="text-3xl font-bold text-sky-300 mb-6">Subscribe to HBR</h1>
+        <div class="cta mb-8">
+            <p class="text-lg font-medium text-white mb-6">Never miss another big story</p>
+            <a href="#" class="pb-3 border-b-[3px] text-white font-bold border-b-blue-300 hover:text-green-200">Subscribe Now</a>
+        </div>
+    </div>
+    <script>
+        function hideCTA(){
+            document.getElementById('subscribe-cta').classList.add("hidden");
+        }
+    </script>
+</body>
+</html>
