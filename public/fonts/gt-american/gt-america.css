@@ -2,106 +2,106 @@
   font-family: "GTA";
   font-style: light;
   font-weight: 300;
-  src: url("./GT America Light.ttf") format("truetype"),
-    url("./GT America Light.woff") format("woff"),
-    url("./GT America Light.woff2") format("woff2");
+  src:  url("./GT America Light.woff2") format("woff2"),
+        url("./GT America Light.woff") format("woff"),
+        url("./GT America Light.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "GTA";
   font-style: normal;
   font-weight: 400;
-  src: url("./GT America Regular.ttf") format("truetype"),
-    url("./GT America Regular.woff") format("woff"),
-    url("./GT America Regular.woff2") format("woff2");
+  src:  url("./GT America Regular.woff2") format("woff2"),
+        url("./GT America Regular.woff") format("woff"),
+        url("./GT America Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "GTA";
   font-style: medium;
   font-weight: 500;
-  src: url("./GT America Medium.ttf") format("truetype"),
-    url("./GT America Medium.woff") format("woff"),
-    url("./GT America Medium.woff2") format("woff2");
+  src:      url("./GT America Medium.woff2") format("woff2"),
+        url("./GT America Medium.woff") format("woff"),
+        url("./GT America Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "GTA";
   font-style: bold;
   font-weight: 700;
-  src: url("./GT America Bold.ttf") format("truetype"),
-    url("./GT America Bold.woff") format("woff"),
-    url("./GT America Bold.woff2") format("woff2");
+  src:  url("./GT America Bold.woff2") format("woff2"),
+        url("./GT America Bold.woff") format("woff"),
+        url("./GT America Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "GTA-Con";
   font-style: light;
   font-weight: 300;
-  src: url("./GT America Condensed Light.ttf") format("truetype"),
-    url("./GT America Condensed Light.woff") format("woff"),
-    url("./GT America Condensed Light.woff2") format("woff2");
+  src:  url("./GT America Condensed Light.woff2") format("woff2"),
+        url("./GT America Condensed Light.woff") format("woff"),
+        url("./GT America Condensed Light.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "GTA-Con";
   font-style: normal;
   font-weight: 400;
-  src: url("./GT America Condensed Regular.ttf") format("truetype"),
-    url("./GT America Condensed Regular.woff") format("woff"),
-    url("./GT America Condensed Regular.woff2") format("woff2");
+  src:  url("./GT America Condensed Regular.woff2") format("woff2"),
+        url("./GT America Condensed Regular.woff") format("woff"),
+        url("./GT America Condensed Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "GTA-Con";
   font-style: medium;
   font-weight: 500;
-  src: url("./GT America Condensed Medium.ttf") format("truetype"),
-    url("./GT America Condensed Medium.woff") format("woff"),
-    url("./GT America Condensed Medium.woff2") format("woff2");
+  src:  url("./GT America Condensed Medium.woff2") format("woff2"),
+        url("./GT America Condensed Medium.woff") format("woff"),
+        url("./GT America Condensed Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "GTA-Con";
   font-style: bold;
   font-weight: 700;
-  src: url("./GT America Condensed Bold.ttf") format("truetype"),
-    url("./GT America Condensed Bold.woff") format("woff"),
-    url("./GT America Condensed Bold.woff2") format("woff2");
+  src:  url("./GT America Condensed Bold.woff2") format("woff2"),
+        url("./GT America Condensed Bold.woff") format("woff"),
+        url("./GT America Condensed Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "GTA-Ext";
   font-style: light;
   font-weight: 300;
-  src: url("./GT America Extended Light.ttf") format("truetype"),
-    url("./GT America Extended Light.woff") format("woff"),
-    url("./GT America Extended Light.woff2") format("woff2");
+  src:  url("./GT America Extended Light.woff2") format("woff2"),
+        url("./GT America Extended Light.woff") format("woff"),
+        url("./GT America Extended Light.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "GTA-Ext";
   font-style: normal;
   font-weight: 400;
-  src: url("./GT America Extended Regular.ttf") format("truetype"),
-    url("./GT America Extended Regular.woff") format("woff"),
-    url("./GT America Extended Regular.woff2") format("woff2");
+  src:  url("./GT America Extended Regular.woff2") format("woff2"),
+        url("./GT America Extended Regular.woff") format("woff"),
+        url("./GT America Extended Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "GTA-Ext";
   font-style: medium;
   font-weight: 500;
-  src: url("./GT America Extended Medium.ttf") format("truetype"),
-    url("./GT America Extended Medium.woff") format("woff"),
-    url("./GT America Extended Medium.woff2") format("woff2");
+  src:  url("./GT America Extended Medium.woff2") format("woff2"),
+        url("./GT America Extended Medium.woff") format("woff"),
+        url("./GT America Extended Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "GTA-Ext";
   font-style: bold;
   font-weight: 700;
-  src: url("./GT America Extended Bold.ttf") format("truetype"),
-    url("./GT America Extended Bold.woff") format("woff"),
-    url("./GT America Extended Bold.woff2") format("woff2");
+  src:  url("./GT America Extended Bold.woff2") format("woff2"),
+        url("./GT America Extended Bold.woff") format("woff"),
+        url("./GT America Extended Bold.ttf") format("truetype");
 }
