@@ -11,24 +11,40 @@
     </style>
 </head>
 
-<body class="flex align-middle font-sans">
-    <div class="container w-fit h-fit bg-blue-700 p-[16px]" id="subscribe-cta">
+<body class="align-middle font-sans">
+    <div class="container w-fit h-fit bg-blue-700 p-[16px] transition" id="subscribe-cta">
         <div class="flex justify-between mb-8">
             <img src="./public/images/hbr-logo-white.svg" alt="">
             <span class="cursor-pointer" onclick="hideCTA()">
-                <img src="./public/images/cross.svg" alt="Close subscribe box">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 13L13 1" stroke="#ffffff"></path>
+                    <path d="M1 0.999999L13 13" stroke="#ffffff"></path>
+                </svg>
             </span>
         </div>
         <h1 class="text-3xl font-bold text-sky-300 mb-6">Subscribe to HBR</h1>
         <div class="cta mb-8">
             <p class="text-lg font-medium text-white mb-6">Never miss another big story</p>
-            <a href="#" class="pb-3 border-b-[3px] text-white font-bold border-b-blue-300 hover:text-green-200">Subscribe Now</a>
+            <a href="#"
+                class="pb-3 border-b-[3px] text-white font-bold border-b-blue-300 hover:text-green-200">Subscribe
+                Now</a>
         </div>
     </div>
+    <div>
+        <span class="font-medium text-xs text-slate-600 cursor-pointer hover:text-sky-600 hidden transition"
+            id="show-cta" onclick="showCTA()">Show CTA</span>
+    </div>
     <script>
-        function hideCTA(){
+        function hideCTA() {
             document.getElementById('subscribe-cta').classList.add("hidden");
+            document.getElementById('show-cta').classList.remove('hidden');
+        }
+
+        function showCTA() {
+            document.getElementById('subscribe-cta').classList.remove('hidden');
+            document.getElementById('show-cta').classList.add('hidden');
         }
     </script>
 </body>
+
 </html>
